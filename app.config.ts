@@ -4,6 +4,6 @@ export default defineConfig({
   ssr: true,
   server: {
     baseURL: '/solid-start-offset',
-    preset: 'github-pages'
+    preset: 'static'
   }
 });
