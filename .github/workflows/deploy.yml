@@ -1,0 +1,29 @@
+
+name: build and deploy
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  build-test-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version-file: '.nvmrc'
+
+    - name: Install NPM packages
+      run: pnpm i
+
+    - name: Build
+      run: |
+        pnpm run build
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages
+        folder: .output/public
