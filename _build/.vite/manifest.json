@@ -2,46 +2,46 @@
   "_HttpStatusCode-DjTx85av.js": {
     "file": "assets/HttpStatusCode-DjTx85av.js"
   },
-  "_index-C77yFdeN.js": {
-    "file": "assets/index-C77yFdeN.js"
+  "_index-mcL_fFGR.js": {
+    "file": "assets/index-mcL_fFGR.js"
   },
   "src/routes/[...404].tsx?pick=default&pick=$css": {
-    "file": "assets/_...404_-DxhpVUoL.js",
+    "file": "assets/_...404_-Hy0br1dc.js",
     "src": "src/routes/[...404].tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-C77yFdeN.js",
+      "_index-mcL_fFGR.js",
       "_HttpStatusCode-DjTx85av.js"
     ]
   },
   "src/routes/about.tsx?pick=default&pick=$css": {
-    "file": "assets/about-BXkkZELx.js",
+    "file": "assets/about-B7hg814B.js",
     "src": "src/routes/about.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-C77yFdeN.js"
+      "_index-mcL_fFGR.js"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-BUNaStCl.js",
+    "file": "assets/index-DiqtdELQ.js",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-C77yFdeN.js"
+      "_index-mcL_fFGR.js"
     ],
     "css": [
       "assets/index-7whypOeP.css"
     ]
   },
   "virtual:#vinxi/handler/client": {
-    "file": "assets/client-CXm91wvw.js",
+    "file": "assets/client-CkGP3qSp.js",
     "src": "virtual:#vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_index-C77yFdeN.js",
+      "_index-mcL_fFGR.js",
       "_HttpStatusCode-DjTx85av.js"
     ],
     "dynamicImports": [

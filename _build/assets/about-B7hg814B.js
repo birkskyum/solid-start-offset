@@ -1,0 +1,1 @@
+import{q as n,C as i,y as l,h as o,x as s,T as m}from"./index-mcL_fFGR.js";var u=s("<main><!$><!/><h1>About");function $(){return(()=>{var e=n(u),r=e.firstChild,[t,a]=i(r.nextSibling);return t.nextSibling,l(e,o(m,{children:"About"}),t,a),e})()}export{$ as default};
