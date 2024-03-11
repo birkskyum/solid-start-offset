@@ -1,0 +1,56 @@
+{
+  "_HttpStatusCode-DjTx85av.js": {
+    "file": "assets/HttpStatusCode-DjTx85av.js"
+  },
+  "_index-C77yFdeN.js": {
+    "file": "assets/index-C77yFdeN.js"
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css": {
+    "file": "assets/_...404_-DxhpVUoL.js",
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-C77yFdeN.js",
+      "_HttpStatusCode-DjTx85av.js"
+    ]
+  },
+  "src/routes/about.tsx?pick=default&pick=$css": {
+    "file": "assets/about-BXkkZELx.js",
+    "src": "src/routes/about.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-C77yFdeN.js"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-BUNaStCl.js",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-C77yFdeN.js"
+    ],
+    "css": [
+      "assets/index-7whypOeP.css"
+    ]
+  },
+  "virtual:#vinxi/handler/client": {
+    "file": "assets/client-DxJMfUuK.js",
+    "src": "virtual:#vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_index-C77yFdeN.js",
+      "_HttpStatusCode-DjTx85av.js"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/about.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css"
+    ],
+    "css": [
+      "assets/client-CSUIEcYF.css"
+    ]
+  }
+}
